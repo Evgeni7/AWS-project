@@ -12,10 +12,8 @@ namespace date
     [Route("api/date")]
     public class DateCheckController : Controller
     {
-        /// <summary>
-        /// Endpoint used for health checks
-        /// </summary>
-        /// <returns>Returns the name of the controller and the time of the call.</returns>
+        
+        /// <returns>Returns the name of the machine and the time of the call.</returns>
         [HttpGet]
         public IEnumerable<string> Get()
         {
