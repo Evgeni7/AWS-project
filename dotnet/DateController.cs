@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace date
 {
     [Route("api/date")]
-    public class HelthCheckController : Controller
+    public class DateCheckController : Controller
     {
         /// <summary>
         /// Endpoint used for health checks
